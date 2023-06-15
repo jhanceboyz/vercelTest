@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Registration Starting Soon !")
+    return render(request, 'layout.html')
